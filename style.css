@@ -1,0 +1,50 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #0e0f3b;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+
+.btn{
+    margin: 20px;
+    padding: 24px;
+    border: none;
+    width: 250px;
+    height: 80px;
+    text-transform: uppercase;
+    font-family: "montserrat" Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif,sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    background-size: 200%;
+    transition: 0.6s;
+}
+
+.btn1{
+    background-image: linear-gradient(to left , #ffc312 , #ee5a24 , #ffc312);}
+
+.btn2{
+    background-image: linear-gradient(to left , #C4E538 , #009432 , #C4E538);
+}
+
+.btn3{
+    background-image: linear-gradient(to left , #0652DD , #1B1464 , #0652DD);
+}
+
+.btn4{
+    background-image: linear-gradient(to left , #D980FA , #5758BB , #D980FA);
+}
+
+.btn:hover{
+    background-position: right;
+}
+
+
+
